@@ -1,0 +1,98 @@
+olives
+mixed greens
+brussels sprouts
+celery
+plate only
+strawberries
+eggs
+yam
+fish
+eggplant
+caesar salad
+chicken
+cauliflower
+steak
+spinach (raw)
+cucumbers
+avocado
+broccoli
+raspberries
+bacon
+blackberries
+honeydew melons
+cantaloupe
+deprecated
+potatoes
+almonds
+grapes
+sausage
+berries
+green beans
+tomatoes
+sweet potato
+white rice
+apple
+cherry tomatoes
+squash
+mushroom
+oatmeal
+carrot
+garden salad
+corn on the cob
+watermelon
+turkey bacon
+scrambled eggs
+pineapple
+pears
+orange
+cookies
+hash browns
+pizza
+chicken apple sausage
+cereal
+mandarin oranges
+pepperoni pizza
+grapefruit juice
+waffles
+asparagus
+ice cream cones
+bok choy
+yogurt
+roasted potatoes
+cheese pizza
+wheat berry
+orange with peel
+bagels
+cottage cheese
+brown rice
+tofu
+bread
+egg whites
+chia seeds
+chilaquiles
+frozen yogurt
+toast
+radishes
+grilled chicken
+brownies
+wild rice
+onions
+pepperoni
+sandwiches
+tuna
+pasta salad
+bell peppers
+greek salad
+tuna salad
+fried rice
+lettuce
+turkey
+omelets
+greek yogurt
+chili
+hummus
+spaghetti
+dumplings
+lasagna
+collards
+pasta
