@@ -1,1 +1,2 @@
 *.pth filter=lfs diff=lfs merge=lfs -text
+carb_inspector_linux filter=lfs diff=lfs merge=lfs -text
