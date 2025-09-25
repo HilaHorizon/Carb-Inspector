@@ -14,6 +14,20 @@ Appears as a .py file in: carb_inspector_model.py
 
 Single-file app that serves a browser UI and a JSON API for food-image classification + carb estimation.
 
+### GitHub Download:
+The model is stored on GitHub via LFS, so the user needs to use LFS to download it to their PC as setup. Instructions (in CMD):
+1) install git LFS:
+   - git lfs install
+2) clone the git repo (donnot directly download it from github)
+   - cd C:\Users\HP\Downloads
+   - git clone https://github.com/HilaHorizon/Carb-Inspector.git
+   - cd Carb-Inspector
+3) Fetch LFS contact
+   - git lfs pull # (If you already had a clone from before LFS)
+   - git lfs fetch --all
+   - git lfs checkout
+4) you are now set to begin :)
+
 ### Windows run:
 - One command to run:  python carb_inspector.py
 - Auto-opens your browser to the app
@@ -108,3 +122,4 @@ $env:CONF_THRESHOLD="0.15"; $env:TOPK_MAX="5"; python carb_inspector.py
 © Gur Abraham & Hila Ofek, 2025  @ TAU - Carb Inspector Model Demo.
 © Tam & Le, 2019 @ Google Research - EfficientNet-B4.
 © Thames at al, 2021 @ Google Research - Nutrition5K.
+
