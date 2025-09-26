@@ -139,14 +139,13 @@ try:
                   # Look up the record for the dish_id
                   record = metadata_df.loc[dish_id]
 
-                  # Access the second ingredient column (adjust index if needed based on metadata structure)
+                  # Access the second ingredient column
                   # Assuming column index 14 is the second ingredient's ID based on previous output
                   second_ingr = record.iloc[13] # Use iloc for integer-based indexing
 
 
                   # Only include dishes with exactly one ingredient (check if the second ingredient is NaN)
                   if str(second_ingr) == 'nan':
-                  # if str(second_ingr) != None:
                       # Access the mass value from column with index 2 - total mass in grams
                       mass = record.iloc[1] # Use iloc for integer-based indexing
                       # Access the carbohydrate value from column with index 4 - total carbs in grams
@@ -176,8 +175,6 @@ except Exception as e:
 print(f"Found {count} images with corresponding metadata")
 
 # Define a function to load the image using fsspec and PIL
-# This function is no longer directly used in the dataset creation,
-# but can be kept for manual inspection if needed.
 def load_image_from_gcs(image_path_gcs):
     with fsspec.open(image_path_gcs, 'rb') as f:
         img = Image.open(f)
@@ -227,7 +224,7 @@ import os
 num_examples = 5
 
 # Get random indices from the training dataset
-# Using the training dataset as an example, you could also use the test_dataset
+# Using the training dataset as an example, could also use the test_dataset
 random_indices = random.sample(range(len(train_dataset)), min(num_examples, len(train_dataset)))
 
 print(f"Displaying {len(random_indices)} random examples from the training dataset:")
@@ -282,7 +279,7 @@ from torchvision import transforms
 import random
 
 # 1. Load full dataset
-raw_ds = nutrition_dataset_full  # replace with actual path/repo
+raw_ds = nutrition_dataset_full
 # build label mapping from entire dataset to cover all splits
 all_meals = nutrition_dataset_full.unique('meal_name')
 
