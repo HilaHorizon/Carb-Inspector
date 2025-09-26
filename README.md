@@ -28,7 +28,7 @@ The model is stored on GitHub via LFS, so the user needs to use LFS to download 
    - git clone https://github.com/HilaHorizon/Carb-Inspector.git
    - cd Carb-Inspector
 3) Fetch LFS contact
-   - git lfs pull                   # (If you already had a clone from before LFS)
+   - git lfs pull
    - git lfs fetch --all
    - git lfs checkout
 4) you are now set to begin :)
