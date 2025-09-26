@@ -23,7 +23,7 @@ The model is stored on GitHub via LFS, so the user needs to use LFS to download 
    - git clone https://github.com/HilaHorizon/Carb-Inspector.git
    - cd Carb-Inspector
 3) Fetch LFS contact
-   - git lfs pull # (If you already had a clone from before LFS)
+   - git lfs pull                   # (If you already had a clone from before LFS)
    - git lfs fetch --all
    - git lfs checkout
 4) you are now set to begin :)
@@ -122,6 +122,7 @@ $env:CONF_THRESHOLD="0.15"; $env:TOPK_MAX="5"; python carb_inspector.py
 © Gur Abraham & Hila Ofek, 2025  @ TAU - Carb Inspector Model Demo.
 © Tam & Le, 2019 @ Google Research - EfficientNet-B4.
 © Thames at al, 2021 @ Google Research - Nutrition5K.
+
 
 
 
