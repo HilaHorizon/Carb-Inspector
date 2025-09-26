@@ -6,7 +6,7 @@ It will classify the food item and return the amount of carbohydrates(g) in the 
 
 ## Model code
 
-For your convinience, we attached our source code in two differnt formats:
+For your convinience, we attached our source code in two different formats:
 
 A .ipynb file in: carb_inspector_model.ipynb
 
